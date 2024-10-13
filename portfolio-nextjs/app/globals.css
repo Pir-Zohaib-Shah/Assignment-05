@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: linear-gradient(rgb(11, 11, 31),rgb(24, 24, 59));
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-size: cover; /* Ensures the gradient covers the entire area */
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
